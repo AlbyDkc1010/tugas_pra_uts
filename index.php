@@ -31,7 +31,9 @@
     </style>
   </head>
   <body>
-  
+<audio autoplay loop>
+    <source src="audio/iwantitall.mp3" type="audio/mpeg">
+</audio>      
 <!-- NAVBAR -->
 <nav id="navbar-custom" class="navbar navbar-expand-lg fixed-top navbar-dark">
   <div class="container-fluid">
@@ -54,9 +56,11 @@
           <a class="nav-link" href="#news">News</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#webdeveloper">Web Developer</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
-        
     </div>
   </div>
 </nav>
@@ -95,19 +99,18 @@
 <section id="about" style="padding-top:50px">
     <div class="container">
         <h1 class="text-center">QUEEN ARE :</h1>
-        <div class="row" style="padding-top:50px" data-aos="zoom-in">
+        <div class="row" style="padding-top:50px" data-aos="zoom-out-left">
             <div class="col-md-6">
                 <h3>Fredddie Mercury</h3>
                 <h6>-Lead Vocal, Guitar, Piano-</h6>
                 <p>Freddie Mercury (born Farrokh Bulsara; 5 September 1946 – 24 November 1991)[2] was a British singer and songwriter, who achieved worldwide fame as the lead vocalist of the rock band Queen. Regarded as one of the greatest singers in the history of rock music, he was known for his flamboyant stage persona and four-octave vocal range. Mercury defied the conventions of a rock frontman with his theatrical style, influencing the artistic direction of Queen. Mercury was diagnosed with AIDS in 1987. He continued to record with Queen, and posthumously featured on their final album, Made in Heaven (1995). He announced his diagnosis the day before his death, from complications from the disease, in 1991 at the age of 45. In 1992, a concert in tribute to him was held at Wembley Stadium, in benefit of AIDS awareness. His career with Queen was dramatised in the 2018 biopic Bohemian Rhapsody.
-
 As a member of Queen, Mercury was posthumously inducted into the Rock and Roll Hall of Fame in 2001, the Songwriters Hall of Fame in 2003, and the UK Music Hall of Fame in 2004. In 1990, he and the other Queen members were awarded the Brit Award for Outstanding Contribution to British Music, and one year after his death, Mercury was awarded it individually. In 2005, Queen were awarded an Ivor Novello Award for Outstanding Song Collection from the British Academy of Songwriters, Composers, and Authors. In 2002, Mercury was voted number 58 in the BBC's poll of the 100 Greatest Britons.</p>
             </div>
             <div class="col-md-6">
                 <img src="images/freddiemercury.jpg" class="img-rounded" width="100%"/>
             </div>
         </div>
-        <div class="row" style="padding-top:100px" data-aos="zoom-in">
+        <div class="row" style="padding-top:100px" data-aos="zoom-out-right">
             <div class="col-md-6">
                 <img src="images/brianmay.jpg" class="img-rounded" width="100%"/>
             </div>
@@ -117,7 +120,7 @@ As a member of Queen, Mercury was posthumously inducted into the Rock and Roll H
                 <p>Brian Harold May CBE (born 19 July 1947) is an English guitarist, singer, composer, and astrophysicist. He achieved fame as lead guitarist of the rock band Queen. May was a co-founder of Queen with lead singer Freddie Mercury and drummer Roger Taylor. His songwriting contributions helped Queen become one of the most successful bands in rock history.Following the death of Mercury in 1991, aside from the 1992 tribute concert, the release of Made in Heaven (1995) and the 1997 tribute single to Mercury, "No-One but You (Only the Good Die Young)" (written by May), Queen were put on hiatus for several years but were eventually reconvened by May and Taylor for further performances featuring other vocalists. In 2005, a Planet Rock poll saw May voted the seventh-greatest guitarist of all time. He was ranked at No. 26 on Rolling Stone's list of the "100 Greatest Guitarists of All Time". In 2012, he was ranked the second-greatest guitarist in a Guitar World magazine readers poll. In 2001, May was inducted into the Rock and Roll Hall of Fame as a member of Queen and in 2018 the band received the Grammy Lifetime Achievement Award.</p>
             </div>
         </div>
-        <div class="row" style="padding-top:100px" data-aos="zoom-in">
+        <div class="row" style="padding-top:100px" data-aos="zoom-out-left">
             <div class="col-md-6">
                 <h3>Roger Taylor</h3>
                 <h6>-Drummer, Backing Vocal, Percussion-</h6>
@@ -127,7 +130,7 @@ As a member of Queen, Mercury was posthumously inducted into the Rock and Roll H
                 <img src="images/rogertaylor2.jpg" class="img-rounded" width="100%"/>
             </div>
         </div>
-        <div class="row" style="padding-top:100px" data-aos="zoom-in">
+        <div class="row" style="padding-top:100px" data-aos="zoom-out-right">
             <div class="col-md-6">
                 <img src="images/johndeacon.jpg" class="img-rounded" width="100%"/>
             </div>
@@ -160,7 +163,7 @@ After the death of lead singer Freddie Mercury in 1991 and the following year's 
 <h1 class="text-center">NEWS</h1>
 <hr>
 <div class="row mb-2">
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="zoom-in-down">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
           <strong class="d-inline-block mb-2 text-primary">New Single</strong>
@@ -173,7 +176,7 @@ After the death of lead singer Freddie Mercury in 1991 and the following year's 
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" data-aos="zoom-in-down">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
           <strong class="d-inline-block mb-2 text-primary">Queen Tour 2022</strong>
@@ -188,7 +191,28 @@ After the death of lead singer Freddie Mercury in 1991 and the following year's 
     </div>
   </div>
 </div>
-  </section>
+</section>
+<!-- WEB DEVELOPER -->
+<section id="webdeveloper" style="padding-top:50px">
+<div class="container">
+<div class="row text-center">
+      
+      <div class="col-md-12 " data-aos="zoom-in-down">
+      <h1 class="text-center">MY PROFILE</h1>
+        <hr>
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/alby.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect></svg>
+
+        <h2 class="fw-normal text-white">Alby Mukhlis Pratama Ridwan <br> NPM : 5520122140</h2>
+        <p style="text-align:center !important;">
+        Seorang pekerja pengolah data di Badan Pendapatan Daerah Cianjur, yang juga berstatus mahasiswa yang berkuliah di Universitas Suryakancana, Fakultas Teknik, Program Studi Teknik Informatika.
+        </p>
+        <br>
+        <hr>  
+    </div><!-- /.col-lg-4 -->
+      
+</div>
+</div>
+</section>
 <!-- CONTACT -->
 <section id="contact" style="height:300px;" class='bg-danger'>
     <div class="container">
